@@ -15,6 +15,9 @@ const Navigation = () => {
       <li>
         <Link href='/account'>Your account</Link>
       </li>
+      <li>
+        <Link href='/users'>Oasis Users</Link>
+      </li>
     </ul>
   );
 };
