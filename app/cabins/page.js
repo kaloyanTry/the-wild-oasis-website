@@ -1,14 +1,18 @@
 import { Suspense } from 'react';
 import CabinList from '@/components/CabinList';
 import Spinner from '@/components/Spinner';
+import Filter from '@/components/Filter';
 
-export const revalidate = 15;
+// export const revalidate = 3600;
 
 export const metadata = {
   title: 'Cabins',
 };
 
-export default function CabinsPage() {
+export default function CabinsPage({ searchParams }) {
+  const filter = searchParams?.capacity ?? 'all';
+  //when use searchParams => page is dynamic, no more static
+
   return (
     <div>
       <h1 className='text-4xl mb-5 text-accent-400 font-medium'>
@@ -23,8 +27,12 @@ export default function CabinsPage() {
         Welcome to paradise.
       </p>
 
-      <Suspense fallback={<Spinner />}>
-        <CabinList />
+      <div className='flex justify-end mb-8'>
+        <Filter />
+      </div>
+
+      <Suspense fallback={<Spinner />} key={filter}>
+        <CabinList filter={filter} />
       </Suspense>
     </div>
   );
