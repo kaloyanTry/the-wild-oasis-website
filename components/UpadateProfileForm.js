@@ -31,6 +31,8 @@ function UpadateProfileForm({ children }) {
           <label htmlFor='nationality'>Where are you from?</label>
           <Image
             src={countryFlag}
+            // width={64}
+            // height={64}
             alt='Country flag'
             className='h-5 rounded-sm'
           />
