@@ -1,14 +1,11 @@
 'use client';
 
 import { updateGuest } from '@/lib/actions';
-// import Image from 'next/image';
 import { useState } from 'react';
 import { useFormStatus } from 'react-dom';
 
 function UpadateProfileForm({ guest, children }) {
   const [count, setount] = useState();
-  // const countryFlag = 'pt.jpg';
-  // const nationality = 'portugal';
   const { fullName, email, nationality, natioinalID, countryFlag } = guest;
 
   return (
