@@ -2,8 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## The Wild Oasis Website
 
-This is the main project of Udemy's The Ultimate React Course. Link to the course [here](https://www.udemy.com/course/the-ultimate-react-course/)
-
+This is my main project of Udemy's The Ultimate React Course 2024: React, Next.js, Redux & More, created by Jonas Schmedtmann. Link to the course [here](https://www.udemy.com/course/the-ultimate-react-course/)
 
 
 ## Deploy on Vercel
