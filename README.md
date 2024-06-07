@@ -3,11 +3,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## The Wild Oasis Website
 
 This is the main project of Udemy's The Ultimate React Course
-Link to the course here (https://www.udemy.com/course/the-ultimate-react-course/)
+#Link to the course [here](https://www.udemy.com/course/the-ultimate-react-course/)
 
 
 
 ## Deploy on Vercel
 
 The project is deployed on Vercel
-Link of my project (https://the-wild-oasis-website-chi.vercel.app/)
+#Link of my project (https://the-wild-oasis-website-chi.vercel.app/)
